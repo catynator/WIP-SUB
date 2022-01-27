@@ -1,0 +1,265 @@
+@font-face {
+  font-family: gobold bold;
+  src: url(Gobold-Bold.ttf);
+}
+
+@font-face {
+  font-family: gobold extra1;
+  src: url(Gobold-Extra1.ttf);
+}
+
+@font-face {
+  font-family: gobold hollow bold;
+  src: url(Gobold-Hollow-Bold.ttf);
+}
+
+body {
+  margin: 0;
+  text-decoration: none;
+}
+
+.menu {
+  margin: 3em;
+}
+
+.menu a {
+  text-decoration: none;
+  position: relative;
+  margin: 2em;
+  color: black;
+  font-family: 'gobold extra1';
+  top: 1em;
+  left: 2em;
+  border-bottom: solid 1px transparent;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: relative;
+  top: -51em;
+  left: 1130px;
+}
+
+a:hover {
+  font-family: 'gobold hollow bold';
+  border-bottom: 1px solid #fdfafa;
+}
+
+h1 {
+  font-family: 'gobold bold';
+  color: #D9D9D9;
+  font-size: 75px;
+}
+
+h2 {
+  font-family: 'gobold bold';
+  color: #D9D9D9;
+}
+
+p {
+  font-family: 'gobold bold';
+  color: #D9D9D9;
+}
+
+.box1 {
+  background-color: #025DA0;
+  width: 400px;
+  height: 650px;
+  border-radius: 36px;
+  position: relative;
+  left: 2em;
+  top: 1em;
+  -webkit-box-shadow: 1em 1em 3em #7e7b7b;
+          box-shadow: 1em 1em 3em #7e7b7b;
+}
+
+.box1 .monthly {
+  position: relative;
+  left: 3.5em;
+  top: 85px;
+}
+
+.box1 .price1 h2 {
+  position: relative;
+  left: 1.8em;
+  top: 85px;
+  font-size: 56px;
+}
+
+.box1 .price1 p {
+  position: relative;
+  left: 7.5em;
+  top: -0.5em;
+  font-size: 27px;
+}
+
+.box1 .trial1 p {
+  font-size: 27px;
+  text-align: center;
+  position: relative;
+  margin: 2em;
+}
+
+.box1 .choose1 {
+  background-color: white;
+  border-radius: 20px;
+  height: 5em;
+  width: 350px;
+  position: relative;
+  left: 1.5em;
+  top: 2em;
+}
+
+.box1 .choose1 p {
+  font-size: 45px;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 0.2em;
+}
+
+.box2 {
+  background-color: #025DA0;
+  width: 400px;
+  height: 650px;
+  border-radius: 36px;
+  position: relative;
+  left: 30em;
+  top: -42.5em;
+  -webkit-box-shadow: 1em 1em 3em #7e7b7b;
+          box-shadow: 1em 1em 3em #7e7b7b;
+}
+
+.box2 .monthlyy {
+  position: relative;
+  left: 1em;
+  top: 85px;
+}
+
+.box2 .price2 h2 {
+  position: relative;
+  left: 1.8em;
+  top: 85px;
+  font-size: 56px;
+}
+
+.box2 .price2 p {
+  position: relative;
+  left: 7.5em;
+  top: -0.5em;
+  font-size: 27px;
+}
+
+.box2 .trial2 p {
+  font-size: 27px;
+  text-align: center;
+  position: relative;
+  margin: 2em;
+}
+
+.box2 .choose2 {
+  background-color: white;
+  border-radius: 20px;
+  height: 5em;
+  width: 350px;
+  position: relative;
+  left: 1.5em;
+  top: 2em;
+}
+
+.box2 .choose2 p {
+  font-size: 45px;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 0.2em;
+}
+
+.box3 {
+  background-color: #025DA0;
+  width: 400px;
+  height: 650px;
+  border-radius: 36px;
+  position: relative;
+  left: 58em;
+  top: -86em;
+  -webkit-box-shadow: 1em 1em 3em #7e7b7b;
+          box-shadow: 1em 1em 3em #7e7b7b;
+}
+
+.box3 .annually {
+  position: relative;
+  left: 2.8em;
+  top: 85px;
+}
+
+.box3 .price3 h2 {
+  position: relative;
+  left: 1.8em;
+  top: 85px;
+  font-size: 56px;
+}
+
+.box3 .price3 p {
+  position: relative;
+  left: 7.5em;
+  top: -0.5em;
+  font-size: 27px;
+}
+
+.box3 .trial3 p {
+  font-size: 27px;
+  text-align: center;
+  position: relative;
+  margin: 2em;
+}
+
+.box3 .choose3 {
+  background-color: white;
+  border-radius: 20px;
+  height: 5em;
+  width: 350px;
+  position: relative;
+  left: 1.5em;
+  top: 2em;
+}
+
+.box3 .choose3 p {
+  font-size: 45px;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 0.2em;
+}
+
+.box3 .bestvalue {
+  background-color: #D9D9D9;
+  position: relative;
+  top: 6em;
+  height: 5em;
+  border-radius: 20px;
+  -webkit-box-shadow: 1em 1em 3em #5f5d5d;
+          box-shadow: 1em 1em 3em #5f5d5d;
+}
+
+.box3 .bestvalue p {
+  font-size: 45px;
+  color: #ED8D46;
+  text-align: center;
+  position: relative;
+  top: 0.3em;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  top: 10em;
+  left: 1270px;
+}
+/*# sourceMappingURL=main.css.map */
